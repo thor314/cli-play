@@ -1,4 +1,8 @@
 # cli-play
+where to test new cli tooling experiments. Demos:
+- my cli generation tolo
+- trycmd
+
 ## trycmd test
 
 expected usage:

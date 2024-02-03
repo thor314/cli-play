@@ -2,7 +2,6 @@
 authors    =["Thor Kampefner <thorck@pm.me>"]
 description="""playing with cli tools"""
 edition    ="2021"
-
 name      ="cli-play"
 repository="https://github.com/thor314/cli-play"
 version   ="0.1.0"
@@ -18,8 +17,3 @@ delegate  ="0.12.0"                                  # useful for subcommand-sty
 
 [dev-dependencies]
 trycmd = "0.14.20"
-criterion        ="0.5"
-rstest           ="0.18"                                 # testing convenience proc-macros
-arbitrary        ={ version="1.1", features=["derive"] } # see quickcheck
-quickcheck       ="1.0"                                  # lowkey proptest suite
-quickcheck_macros="1"                                    # derive
