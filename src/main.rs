@@ -19,3 +19,18 @@ fn main() -> Result<(), MyError> {
 
   Ok(())
 }
+fn theyre(){
+  //todo
+}
+
+// growth
+// seamless
+// build
+// SHS
+// more
+// going
+// theyre -> they're
+// trigger
+// Constant
+// all 2 letters
+// Lines
