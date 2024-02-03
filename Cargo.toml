@@ -15,9 +15,9 @@ env_logger="0.11"
 dotenv    ="0.15"
 clap      ={ version="4.4.16", features=["derive"] }
 delegate  ="0.12.0"                                  # useful for subcommand-style cli
-trycmd = "0.14.20"
 
 [dev-dependencies]
+trycmd = "0.14.20"
 criterion        ="0.5"
 rstest           ="0.18"                                 # testing convenience proc-macros
 arbitrary        ={ version="1.1", features=["derive"] } # see quickcheck

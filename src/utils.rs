@@ -3,9 +3,9 @@ use clap::Parser;
 use log::trace;
 
 // or:
-use crate::cli::subcommand::SubcommandArgs as MyArgs;
-// use crate::{cli::MyArgs, error::MyError};
-use crate::error::MyError;
+// use crate::cli::subcommand::SubcommandArgs as MyArgs;
+use crate::{cli::MyArgs, error::MyError};
+// use crate::error::MyError;
 
 /// Set up crate logging and environment variables.
 pub(crate) fn setup() -> Result<MyArgs, MyError> {

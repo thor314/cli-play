@@ -1,0 +1,7 @@
+bin.name = "tk"
+stdin = ""
+stdout = """
+hello thor
+"""
+stderr = ""
+status.code = 0

@@ -6,31 +6,16 @@
 #![allow(clippy::clone_on_copy)]
 
 use error::MyError;
-use log::{error, info};
+use log::{error, info, trace};
 
 mod cli;
 mod error;
-#[cfg(test)] mod tests;
 mod utils;
 
 fn main() -> Result<(), MyError> {
   let _cli = utils::setup()?;
-  info!("hello thor");
+  trace!("hello thor");
+  println!("hello thor");
 
   Ok(())
 }
-fn theyre(){
-  //todo
-}
-
-// growth
-// seamless
-// build
-// SHS
-// more
-// going
-// theyre -> they're
-// trigger
-// Constant
-// all 2 letters
-// Lines
