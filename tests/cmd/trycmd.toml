@@ -1,7 +1,9 @@
-bin.name = "tk"
 stdin = ""
 stdout = """
 hello thor
 """
 stderr = ""
-status.code = 0
+[bin]
+name = "cli-play"
+[status]
+code = 0

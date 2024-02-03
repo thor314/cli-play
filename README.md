@@ -3,23 +3,13 @@
 
 expected usage:
 ```console
-$ tk
+$ cli-play
 hello thor
 
 ```
 
+This will be ignored, since it uses the wrong name:
 ```console
-$ simple World
+$ other-name
 Hello World!
-
-$ simple Ferris
-Hello Ferris!
-
-```
-
-```trycmd
-$ ftzz ./exact -en 1M
-Exactly 1,000,000 files will be generated in approximately 1,000 directories distributed across a tree of maximum depth 5 where each directory contains approximately 4 other directories.
-Created 1,000,000 files across 1,259 directories.
-
 ```
